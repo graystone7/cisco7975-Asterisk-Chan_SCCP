@@ -10,6 +10,11 @@ Update the SEPMACADDRESS.cnf.xml to be SEPyourmacaddress.cnf.xml of using the ma
 
 Update SEPyourmacaddress.cnf.xml with the details of your sip server
 
+Upload files to your TFTP server and update the Cisco phone
+
+Please note : if in settings of the phone type **#** to reset
+To factory reset power on the phone and when you see the first light appear hold # and then when the lights start to flow type 123456789*0#
+
 SSH onto your voip server and run the following.
 
 Yum install git mc nano asterisk-devel
